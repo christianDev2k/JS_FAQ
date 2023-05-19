@@ -24,18 +24,6 @@ body {
     width: 60%;
 }
 
-@media screen and (max-width: 991.98px) {
-    .questions__list {
-        width: 80%;
-    }
-}
-
-@media screen and (max-width: 767.98px) {
-    .questions__list {
-        width: 100%;
-    }
-}
-
 .question__btn {
     transition: all .5s;
 }
@@ -73,4 +61,40 @@ body {
 
 .show-text .question__btn span:last-child {
     display: block;
+}
+
+@media screen and (max-width: 991.98px) {
+    .title h1 {
+        font-size: 40px;
+    }
+
+    .questions__list {
+        width: 80%;
+    }
+
+    .question__text {
+        font-size: 20;
+    }
+
+    .question__title {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .title h1 {
+        font-size: 30px;
+    }
+    
+    .questions__list {
+        width: 100%;
+    }
+
+    .question__text {
+        font-size: 18px;
+    }
+
+    .question__title {
+        font-size: 16px;
+    }
 }
