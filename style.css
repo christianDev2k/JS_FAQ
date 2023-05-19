@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    background-color: hsl(210, 36%, 96%);
+}
+
+.title h1 {
+    font-family: 'Great Vibes', cursive;
+    color: #c59d5f;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+
+.questions__heading {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.question__title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 6px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.question__btn {
+    transition: all .5s;
+}
+
+.question__btn i {
+    font-size: 28px;
+    color: #c59d5f;
+}
+
+.question__btn span:last-child {
+    display: none;
+}
+
+.question__btn:hover {
+    transform: rotate(90deg);
+}
+
